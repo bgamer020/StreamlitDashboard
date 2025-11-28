@@ -1,0 +1,52 @@
+/* ===== NỀN CHÍNH ===== */
+.stApp {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    background-image: radial-gradient(#2a0055 1px, transparent 1px), 
+                      radial-gradient(#004b55 1px, transparent 1px);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}
+
+/* ===== TIÊU ĐỀ ===== */
+h1, h2, h3 {
+    color: #00eaff !important;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+/* ===== SIDEBAR ===== */
+section[data-testid="stSidebar"] {
+    background-color: #0d001a !important;
+    border-right: 2px solid #ff00ff;
+}
+
+/* ===== BUTTON ===== */
+.stButton > button {
+    background-color: #ff00ff;
+    color: black;
+    border-radius: 8px;
+    border: 2px solid #00eaff;
+    box-shadow: 0px 0px 10px #ff00ff;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.stButton > button:hover {
+    background-color: #00eaff;
+    box-shadow: 0px 0px 15px #00eaff;
+    transform: scale(1.05);
+}
+
+/* ===== DATAFRAME ===== */
+[data-testid="stDataFrame"] {
+    border: 2px solid #00eaff;
+}
+
+/* ===== SLIDER ===== */
+.stSlider > div > div > div {
+    background: linear-gradient(90deg, #ff00ff, #00eaff);
+}
+
+/* ===== CHART SVG ===== */
+svg {
+    filter: drop-shadow(0 0 10px #00eaff);
+}
